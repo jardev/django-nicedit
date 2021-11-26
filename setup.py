@@ -43,7 +43,7 @@ def read(fname):
 setup(
     name="django-nicedit",
     version=app.__version__,
-    description=read('DESCRIPTION'),
+    description=read('DESCRIPTION').strip(),
     long_description=read('README.rst'),
     license='The MIT License',
     platforms=['OS Independent'],
